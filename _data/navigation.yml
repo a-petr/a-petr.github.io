@@ -1,0 +1,10 @@
+- name: About
+  link: /
+- name: Curriculum vitae
+  link: /cv
+- name: Research
+  link: /research
+- name: Teaching
+  link: /teaching
+- name: Math 3215
+  link: /math3215f20

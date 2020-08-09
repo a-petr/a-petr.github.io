@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Week 1 | Armenak Petrosyan</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Week 1" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is a personal website where I post about my research and teaching." />
+<meta property="og:description" content="This is a personal website where I post about my research and teaching." />
+<link rel="canonical" href="http://localhost:4000/math3215f20/week01" />
+<meta property="og:url" content="http://localhost:4000/math3215f20/week01" />
+<meta property="og:site_name" content="Armenak Petrosyan" />
+<script type="application/ld+json">
+{"description":"This is a personal website where I post about my research and teaching.","url":"http://localhost:4000/math3215f20/week01","@type":"WebPage","headline":"Week 1","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Armenak Petrosyan" />
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Armenak Petrosyan</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+            
+              <a class="page-link" href="/" >About</a>
+            
+              <a class="page-link" href="/cv" >Curriculum vitae</a>
+            
+              <a class="page-link" href="/research" >Research</a>
+            
+              <a class="page-link" href="/teaching" >Teaching</a>
+            
+              <a class="page-link" href="/math3215f20" >Math 3215</a>
+            
+
+<!--<a class="page-link" href="/cv">Curriculum Vitae</a><a class="page-link" href="/">About</a><a class="page-link" href="/math3215f20">Math 3215 Probability and Statistics</a><a class="page-link" href="/fall2020math3215">Math 3215 Probability and Statistics</a><a class="page-link" href="/research">Research</a><a class="page-link" href="/teaching">Teaching</a>-->
+        </div>
+      </nav></div>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <body>
+  <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container">
+      
+
+
+
+  <div class="cell text_cell">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
+
+
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In this example I am going to sample from the normal distribution and plot the samples</p>
+
+</div>
+</div>
+</div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mf">0.6</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10000</span><span class="p">)</span>
+<span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+  </div>
+
+
+
+<!-- Loads nbinteract package -->
+<script src="https://unpkg.com/nbinteract-core" async=""></script>
+<script>
+  (function setupNbinteract() {
+    // If NbInteract hasn't loaded, wait one second and try again
+    if (window.NbInteract === undefined) {
+      setTimeout(setupNbinteract, 1000)
+      return
+    }
+
+    var interact = new window.NbInteract({
+      spec: 'a-petr/math3215/master',
+      baseUrl: 'https://mybinder.org',
+      provider: 'gh',
+    })
+    interact.prepare()
+
+    window.interact = interact
+  })()
+</script>
+    </div>
+  </div>
+</body>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>This is a personal website where I post  about my research and teaching. </p>
+      </div>
+    </div>
+
+
+
+  </div>
+
+</footer></body>
+
+</html>
