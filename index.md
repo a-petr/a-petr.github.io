@@ -13,5 +13,4 @@ permalink:
 
 I can be reached via the following email: `petrosyan@mail.gatech.edu`.
 
-![adad](/assets/images/Armenak.jpg)
 
