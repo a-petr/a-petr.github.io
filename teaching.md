@@ -14,7 +14,7 @@ permalink: teaching
 
 
 ##  <center> Vanderbilt University
-### As eaching assistant
+### As teaching assistant
 
 * Introduction to Probability and Mathematical Statistics, Spring 2017
 * Differential Equations and Linear Algebra, Fall 2017
@@ -26,7 +26,7 @@ permalink: teaching
 
 ##  <center> Short courses and lectures
 
-* Lecturer, <a href="http://mathschool.ysu.am/mss2017" >Fourth mathematical summer school, Tsakhkadzor, Armenia, Summer 2017
+* <a href="http://mathschool.ysu.am/mss2017" >Fourth mathematical summer school, Tsakhkadzor, Armenia, Summer 2017
 </a> <br>
 Title: Introduction to compressed sensing <br>
  
