@@ -3,7 +3,12 @@ layout: default
 title: Research
 permalink: /research
 ---
-<body>
-	<h1>My research</h1>
-	<p>    </p>
-</body>
+
+<br>
+##  <center> Integral neural networks
+
+<br>
+## <center> Joint sparse recovery
+
+<br>
+## <center> Dynamical sampling

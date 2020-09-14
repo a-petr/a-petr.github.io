@@ -4,10 +4,13 @@ title: "Curriculum Vitae"
 permalink: cv
 ---
 
+<iframe frameborder="0" scrolling="no"
+     width="640" height="480"
+     src="https://drive.google.com/file/d/1vJjZh-Tcf9lQKX7UtKLfbhxU0WKRGThS/preview">
+  </iframe>
 
 
-
-## <center> Employment 
+<!-- ## <center> Employment 
 
 `Aug 2020 - Present`
 
@@ -105,7 +108,7 @@ ENSEEIHT, Toulouse, France, July 1-4, 2019
 Title: Rearranged Fourier Series and Generalizations to Non-commutative Groups.
 Vanderbilt University, Nashville,
 TN, May 19-22, 2019
-
+ -->
 
 
 

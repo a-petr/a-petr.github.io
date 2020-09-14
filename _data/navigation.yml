@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Bio
+- name: CV
   link: /cv
 - name: Research
   link: /research
