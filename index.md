@@ -13,6 +13,6 @@ permalink:
 <p>I obtained my Ph.D. degree in Mathematics from Vanderbilt University. My research interests are at the intersection of applied harmonic analysis and machine learning.  I study approximation and representation capabilities of artificial neural networks, and problems related to the recovery of systems of signals under sparsity or structural assumptions.
 </p>
 
-I can be reached at `petrosyan@mail.gatech.edu`.
+I can be reached at `petrosyan@math.gatech.edu`.
 
 
