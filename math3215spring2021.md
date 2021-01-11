@@ -10,10 +10,7 @@ permalink: /spring2021math3215
 <h2>Complementary notes</h2>
 
 <p>These notes are made in Jupyter notebook to complement the slides. 
-In the links below they are run on Binder via nbinteract. You may need to press `Show Widgets` at the top of the page to show interactive widgets. You may also need to wait for a few secs for it to launch.  The Jupyer notebooks are hosted on Github at the  <a href="https://github.com/a-petr/math3215fall2020" > following repo</a>.  If you want to run locally you can download the notebooks from Github. </p>
-
-
-
+In the links below they are run on Binder via nbinteract. You may need to press `Show Widgets` at the top of the page to show interactive widgets. You may also need to wait for a few secs for it to launch.  The Jupyer notebooks are hosted on Github at the  <a href="https://github.com/a-petr/math3215spring2021" > following repo</a>.  If you want to run locally you can download the notebooks from Github. </p>
 
 
 <p>You can also go to binder by clicking the link below. There you will be able to modify, play with, and save the code (maybe a better option if there are numerical examples in the lecture note). </p>
