@@ -5,7 +5,7 @@ permalink: /spring2021math3215
 ---
 <body>
 
-<h1>Math 3215-C (Probability and Statistics), Fall 2020</h1>
+<h1>Math 3215-J (Probability and Statistics), Spring 2021</h1>
 
 <h2>Complementary notes</h2>
 
@@ -23,43 +23,10 @@ In the links below they are run on Binder via nbinteract. You may need to press 
 
 	<ul>
 			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/week01" >Week 1</a>	 <br>  
+			 	<a href="https://petrosyan.page/math3215fall2020/week01" >Week 0: Discrete and continuous data</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215fall2020/master?filepath=week01.ipynb"		 >Binder link</a>
 			</li>     
-			<br>
-			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/week02" >Week 2-3</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215fall2020/master?filepath=week02.ipynb"		 >Binder link</a>
-			</li>    
-			<br>  
-			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/median" >Proof that the median minimizes the sum of absolute value differences</a>	 <br>  
-			</li>    
-			<br>
-			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/week04" >Week 4</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215fall2020/master?filepath=week04.ipynb"		 >Binder link</a>
-			</li>   
-			<br>  
-			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/week05" >Week 5,6,7</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215fall2020/master?filepath=week05.ipynb"		 >Binder link</a>
-			</li>   
-			<br>  
-			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/week06" >Week 8</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215fall2020/master?filepath=week06.ipynb"		 >Binder link</a>
-			</li>   
-			<br>  
-			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/week09" >Week 11</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215fall2020/master?filepath=week09.ipynb"		 >Binder link</a>
-			</li>   	
-			<br>  
-			<li>
-			 	<a href="https://petrosyan.page/math3215fall2020/brownian" >Brownian motion</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215fall2020/master?filepath=brownian.ipynb"		 >Binder link</a>
-			</li>  		
+			<br> 		
 	</ul>
 </body>
 
