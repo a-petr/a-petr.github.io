@@ -29,6 +29,10 @@ In the links below they are run on Binder via nbinteract. You may need to press 
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes3.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 	
+			<li>
+			 	<a href="https://petrosyan.page/math3215spring2021/median" >Proof that the median minimizes the sum of absolute value differences</a>	 <br>  
+			</li>    
+			<br>
 	</ul>
 </body>
 
