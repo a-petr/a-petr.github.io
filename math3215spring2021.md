@@ -21,12 +21,12 @@ In the links below they are run on Binder via nbinteract. You may need to press 
 	<ul>
 			<li>
 			 	<a href="https://petrosyan.page/math3215spring2021/notes2" >Set theory, probability, combinatorics</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes2"		 >Binder link</a>
+			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes2.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 		
 			<li>
 			 	<a href="https://petrosyan.page/math3215spring2021/notes3" >Discrete random variables</a>	 <br>  
-			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes2"		 >Binder link</a>
+			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes3.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 	
 	</ul>
