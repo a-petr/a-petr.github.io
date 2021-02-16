@@ -3,6 +3,7 @@ layout: default
 title: Research
 permalink: /research
 ---
+<body>
 
 <br>
 ##  <center> Integral neural networks
@@ -18,3 +19,5 @@ permalink: /research
 			</li>     
 			<br> 		
 		</ul>
+
+</body>
