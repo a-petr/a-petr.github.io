@@ -43,7 +43,11 @@ In the links below they are run on Binder via nbinteract. You may need to press 
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes5.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
-
+			<li>
+			 	<a href="https://petrosyan.page/math3215spring2021/notes6" >Bivariate random variables</a>	 <br>  
+			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes6.ipynb"		 >Binder link</a>
+			</li>     
+			<br> 
 	</ul>
 </body>
 
