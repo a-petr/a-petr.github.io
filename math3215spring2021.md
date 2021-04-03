@@ -49,11 +49,25 @@ In the links below they are run on Binder via nbinteract. You may need to press 
 			</li>     
 			<br> 
 			<li>
+			 	<a href="https://petrosyan.page/math3215spring2021/notes7" >Central limit theorem</a>	 <br>  
+			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=7.ipynb"		 >Binder link</a>
+			</li>     
+			<br> 
+			<li>
 			 	<a href="https://petrosyan.page/math3215spring2021/brownian" >Brownian motion</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=brownian.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
-
+			<li>
+			 	<a href="https://petrosyan.page/math3215spring2021/notes8" >Random number generation</a>	 <br>  
+			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=8.ipynb"		 >Binder link</a>
+			</li>     
+			<br> 
+			<li>
+			 	<a href="https://petrosyan.page/math3215spring2021/notes9" >Discriptive statistics, statistical estimation</a>	 <br>  
+			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=9.ipynb"		 >Binder link</a>
+			</li>     
+			<br> 
 	</ul>
 </body>
 
