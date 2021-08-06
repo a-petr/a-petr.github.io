@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Math 3215 - Probability and Statistics
-permalink: /spring2021math3215
+permalink: /fall2021math2603
 ---
 <body>
 
