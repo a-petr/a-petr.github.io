@@ -9,7 +9,7 @@ permalink: teaching
 ##  <center> Gerogia Tech
 ### As main instructor
 
-* <a href="https://petrosyan.page/fall2021math2603" >Introduction to discrete mathematics (MATH 2603), Fall 2021
+* <a href="https://petrosyan.page/fall2021math2603" >Introduction to Discrete Mathematics (MATH 2603), Fall 2021
 </a> <br>
 * Probability and Statistics (MATH 3215), Summer 2021
  <br>
