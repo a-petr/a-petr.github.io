@@ -3,7 +3,9 @@ layout: default
 title: Research
 permalink: /research
 ---
-
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+ 
 ##  <center> Neural network theory and algorithms
 
 A neural network is a structurally simple parametric family with powerful representation capabilities in which an input propagates through a network  of  parallel matrix multiplications and activation units.
