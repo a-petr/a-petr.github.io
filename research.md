@@ -11,7 +11,7 @@ The aim is to find (learn, train) a neural network representation $$L$$ of a tar
 
 * Neural network  architectures are typically selected by trial and error,  and often it is not clear beforehand how many layers and nodes should be taken in the network;
 
-* Models  lack  interpretabilty, in particular it is not clear what the weights $$\{a_j,b_j,c_j\}_{j=1}^m$$ represent;
+* Models  lack  interpretabilty, in particular it is not clear what the weights <spam>$$\{a_j,b_j,c_j\}_{j=1}^m$$ represent;</span>
 
 * The training process is computationally expensive and there is not a good initialization method for the training;
 
