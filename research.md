@@ -57,7 +57,7 @@ The goal is to  recover the unknown \\(X\in\mathbb{R}^{N\times K}\\), for given 
 The convex \\(\ell_{2,1}\\) norm optimization method is commonly used for solving the joint sparse recovery problem.
 However, this method suffers from rank-blindness issues  [Davies, Eldar, 2010](https://arxiv.org/abs/1004.4529), that is, it fails to take advantage of the rank of the s-row sparse  matrix: real life data is typically of  maximum rank. Several rank-aware methods have been proposed [(Lee, Bresler, Junge, 2012)](https://arxiv.org/abs/1004.3071) but none of them is based on a functional optimization. Our method is the first. 
 
-In  [(Petrosyan, Tran, Webster, 2018})](https://arxiv.org/abs/1811.08778), utilizing the rank of the output data matrix we reduced the problem to a full column rank case.  We offered a new  method for recovery of jointly sparse vectors in the form of  a (non-convex)  optimization problem 
+In  [(Petrosyan, Tran, Webster, 2018)](https://arxiv.org/abs/1811.08778), utilizing the rank of the output data matrix we reduced the problem to a full column rank case.  We offered a new  method for recovery of jointly sparse vectors in the form of  a (non-convex)  optimization problem 
 \\[\arg\min\_{Z\in \mathbb{R}^{N\times r},\; \mathbb{R}ank(Z)=r}\|Z(Z^TZ)^{-\frac{1}{2}}\|\_{2,1}\text{  s.t.  } AZ=V.\\]
 
 
