@@ -2,9 +2,7 @@
 layout: default
 title: Research
 permalink: /research
----
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
- 
+--- 
 
 ##  <center> Neural network theory and algorithms
 
@@ -28,6 +26,8 @@ To better understand and address some of these questions, in this effort we inve
 
  	<a href="https://mybinder.org/v2/gh/a-petr/gds/HEAD?filepath=gds.ipynb"		 >Binder link for GDS</a>
 
+{% katexmm %}
 This is a mixed environment where you can have normal text and $c = \pm\sqrt{a^2 + b^2}$ fenced math. \$!
+{% endkatexmm %}
 
 

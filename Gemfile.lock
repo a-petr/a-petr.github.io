@@ -270,6 +270,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 206)
+  jekyll (~> 3.8)
   jekyll-feed (~> 0.12)
   jekyll-katex
   minima (~> 2.5)
