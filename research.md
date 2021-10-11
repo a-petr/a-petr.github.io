@@ -5,7 +5,7 @@ permalink: /research
 ---
   <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
  
- 
+
 ##  <center> Neural network theory and algorithms
 
 A neural network is a structurally simple parametric family with powerful representation capabilities in which an input propagates through a network  of  parallel matrix multiplications and activation units.
@@ -27,5 +27,9 @@ To better understand and address some of these questions, in this effort we inve
 		
 
  	<a href="https://mybinder.org/v2/gh/a-petr/gds/HEAD?filepath=gds.ipynb"		 >Binder link for GDS</a>
+
+{% katexmm %}
+This is a mixed environment where you can have normal text and $c = \pm\sqrt{a^2 + b^2}$ fenced math. \$!
+{% endkatexmm %}
 
 
