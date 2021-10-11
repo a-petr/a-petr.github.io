@@ -4,10 +4,8 @@ title: "Curriculum Vitae"
 permalink: cv
 ---
 
-<iframe frameborder="0" scrolling="no"
-     width="640" height="480"
-     src="https://drive.google.com/file/d/1vJjZh-Tcf9lQKX7UtKLfbhxU0WKRGThS/preview">
-  </iframe>
+
+<object data="{{ site.url }}/assets/CV_Armenak.pdf" width="1000" height="1000" type="application/pdf"></object>
 
 
 <!-- ## <center> Employment 
