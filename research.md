@@ -7,29 +7,15 @@ permalink: /research
 ##  <center> Neural network theory and algorithms
 
 A neural network is a structurally simple parametric family with powerful representation capabilities in which an input propagates through a network  of  parallel matrix multiplications and activation units.
-The aim is to find (learn, train) a neural network  \\(L(x) \\) which approximates the target function \\( f(x)\\), given noisy data \\(y_i=f(x_i)+\epsilon_i\\), \\(i=1,\dots, K\\).  \\( f\\) can be  an image classifier, solution to a PDE, a specific parameter associated with a model, etc. Some challenges that arise are
-
-* Neural network  architectures are typically selected by trial and error,  and often it is not clear beforehand how many layers and nodes should be taken in the network;
-
-* Models  lack  interpretabilty, in particular it is not clear what the weights \\(\\{a_j,b_j,c_j\\}_{j=1}^m\\) represent;
-
-* The training process is computationally expensive and there is not a good initialization method for the training;
-
-* There are many stability issues, both during the training process (sensitivity to initialization) and post training (sensitive to adversarial attacks), and many others.
-
-To better understand and address some of these questions, in this effort we investigate shallow neural networks, which are better suited for mathematical analysis. 
-A shallow neural network is a function of the form 
+The aim is to find (learn, train) a neural network  \\(L(x) \\) which approximates the target function \\( f(x)\\), given noisy data \\(y_i=f(x_i)+\epsilon_i\\), \\(i=1,\dots, K\\).  \\( f\\) can be  an image classifier, solution to a PDE, a specific parameter associated with a model, etc. 
+We investigate shallow neural networks, which are better suited for mathematical analysis:
 \\[    L(x) = \sum_{j=1}^m c_j \, \sigma(a_j \cdot x + b_j),
 \\]
-
-
-
-where \\(x\in\mathbb{R^d}\\) is the input variable, \\(a_j\in \mathbb{R}^d\\) are the weights, \\(b_j\in\mathbb{R}\\) are the biases,  \\(c_j\in \mathbb{R}\\) are the output weights, and \\(\sigma:\mathbb{R}\to\mathbb{R}\\) is the activation function of the network.
-We consider the ReLU (rectified linear unit) activation, given by \\(\sigma(z) = \max\{z,0\}\\), which is the conventional choice of activation in most modern architectures. 
+where   \\(\sigma:\mathbb{R}\to\mathbb{R}\\) is the ReLU activation function.
 <img style="float: right;" width="400" height="220" src="{{site.baseurl}}/assets/nnpic.png">
 
 
-Due to the Universal Approximation Theorem, any continuous function can be uniformly approximated by a shallow neural network on any compact set. However, the approximating network can be very wide, with a large number of nodes. The challenge we addressed in our work in [(Pieper, Petrosyan, 2021)](https://arxiv.org/abs/2004.11515) and [(Petrosyan, Dereventsov, Webster, 2020)](https://arxiv.org/abs/1910.02743)  was finding  network that is of small size and which approximates the target function on a given set. Previously, a convex penalization method was proposed in [(Bengio, et al, 2005)](https://proceedings.neurips.cc/paper/2005/file/0fc170ecbb8ff1afb2c6de48ea5343e7-Paper.pdf),
+The challenge we addressed in our work in [(Pieper, Petrosyan, 2021)](https://arxiv.org/abs/2004.11515) and [(Petrosyan, Dereventsov, Webster, 2020)](https://arxiv.org/abs/1910.02743)  was finding  network that is of small size and which approximates the target function on a given set. Previously, a convex penalization method was proposed in [(Bengio, et al, 2005)](https://proceedings.neurips.cc/paper/2005/file/0fc170ecbb8ff1afb2c6de48ea5343e7-Paper.pdf),
 \\[
 \min_{c_n \in \mathbb{R},\;  \|a_n\|^2+|b_n|^2 = 1}\;  \frac{1}{2K}\sum_{i=1}^K|L(x_i)-y_i|^2+\alpha  \sum_{n=1}^N|c_n|.
 \\]
@@ -59,7 +45,26 @@ Figure 1 compares solutions   for \\(f(x) = \cos(10(10^{-3}+x^2)^{1/8})\\)
   network \\(L(x)\\) (black), and knot points of the corresponding linear spline
   (orange).}
  
-## <center> Joint sparse recovery
+## <center> Multiple measurement vector problem
+
+
+We proposed a reconstruction algorithm that outperforms the  state of the art
+ method  currently in use for joint sparse recovery.  
+The joint sparse recovery or the Multiple Measurement Vector (MMV) problem can be formulated as follows: we want to solve a matrix equation of the form
+\\[AX=Y.\\]
+The goal is to  recover the unknown \\(X\in\mathbb{R}^{N\times K}\\), for given \\(A\in \mathbb{R}^{M\times N}\\) and \\() Y\in \mathbb{R}^{M\times K}\\),   under the assumption  that  \\(X \\) is an \\(s\\)-row sparse matrix, i.e. at most \\(s\\) rows of \\(X\\) are different from zero. One expects that a large  number  \\(K\\) of unknown jointly sparse vectors  will result in reduction of \\(M\\) which corresponds to the number of linear measurements done on the vectors. 
+
+The convex \\(\ell_{2,1}\\) norm optimization method is commonly used for solving the joint sparse recovery problem.
+However, this method suffers from rank-blindness issues  [Davies, Eldar, 2010](https://arxiv.org/abs/1004.4529), that is, it fails to take advantage of the rank of the s-row sparse  matrix: real life data is typically of  maximum rank. Several rank-aware methods have been proposed [(Lee, Bresler, Junge, 2012)](https://arxiv.org/abs/1004.3071) but none of them is based on a functional optimization. Our method is the first. 
+
+In  [({etrosyan, Tran, Webster, 2018})](https://arxiv.org/abs/1811.08778), utilizing the rank of the output data matrix we reduced the problem to a full column rank case.  We offered a new  method for recovery of jointly sparse vectors in the form of  a (non-convex)  optimization problem 
+\\[\arg\min\_{Z\in \mathbb{R}^{N\times r},\; \mathbb{R}ank(Z)=r}\|Z(Z^TZ)^{-\frac{1}{2}}\|\_{2,1}\text{  s.t.  } AZ=V.\\]
+
+
+Our newest contribution is the new algorithmic method for solving this non-convex problem.
+<img style="float: right;" width="340" height="200" src="{{site.baseurl}}/assets/comparisonmmv.png">
+Numerical experiments demonstrate the superior performance of this method against the convex \\( \ell_{2,1} \\) minimization. Figure 2 compares median reconstruction inaccuracy for our method against \\(\ell_{2,1}\\) norm minimization. We generated 22 random  matrices \\(A_i\\) of size \\(80\times 300\\),  and \\(22\\) random matrices of sparsity \\(s=30\\) with added random noise to the measurements. For each \\(A_i\\), we considered the first \\(k\\) rows for \\(k=38,40,42,\dots,80\\), and found the matrix \\(X\\) using our method and the convex method. The figure clearly demonstrates that our method has more accuracy and hence requires smaller number of measurements for recovery. 
+
 
 ## <center> Dynamical sampling
 		
