@@ -29,9 +29,3 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "webrick"
 
-
-
-group :jekyll_plugins do
-  gem 'jekyll-katex'
-end
-gem "jekyll", "~> 3.8"
