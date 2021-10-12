@@ -9,7 +9,7 @@ permalink: /research
 A neural network is a structurally simple parametric family with powerful representation capabilities in which an input propagates through a network  of  parallel matrix multiplications and activation units.
 The aim is to find (learn, train) a neural network  \\(L(x) \\) which approximates the target function \\( f(x)\\), given noisy data \\(y_i=f(x_i)+\epsilon_i\\), \\(i=1,\dots, K\\).  \\( f\\) can be  an image classifier, solution to a PDE, a specific parameter associated with a model, etc. 
 We investigate shallow neural networks, which are better suited for mathematical analysis:
-\\[    L(x) = \sum_{j=1}^m c_j \, \sigma(a_j \cdot x + b_j),
+\\[    L(x) = \sum_{j=1}^N c_j \, \sigma(a_j \cdot x + b_j),
 \\]
 where   \\(\sigma:\mathbb{R}\to\mathbb{R}\\) is the ReLU activation function.
 <img style="float: right;" width="400" height="220" src="{{site.baseurl}}/assets/nnpic.png">
