@@ -20,51 +20,51 @@ In the links below they are run on Binder via nbinteract. You may need to press 
 
 	<ul>
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes2" >Set theory, probability, combinatorics</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes2" >Set theory, probability, combinatorics</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes2.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 		
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes3" >Discrete random variables</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes3" >Discrete random variables</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes3.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 	
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/median" >Proof that the median minimizes the sum of absolute value differences</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/median" >Proof that the median minimizes the sum of absolute value differences</a>	 <br>  
 			</li>    
 			<br>
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes4" >Mathematical expectation</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes4" >Mathematical expectation</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes4.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes5" >Continuous random variables</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes5" >Continuous random variables</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes5.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes6" >Bivariate random variables</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes6" >Bivariate random variables</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes6.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes7" >Central limit theorem</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes7" >Central limit theorem</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes7.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/brownian" >Brownian motion</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/brownian" >Brownian motion</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=brownian.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes8" >Random number generation</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes8" >Random number generation</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes8.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
 			<li>
-			 	<a href="https://petrosyan.page/math3215spring2021/notes9" >Discriptive statistics, statistical estimation</a>	 <br>  
+			 	<a href="https://armenakpetrosyan.com/math3215spring2021/notes9" >Discriptive statistics, statistical estimation</a>	 <br>  
 			 	<a href="https://mybinder.org/v2/gh/a-petr/math3215spring2021/HEAD?filepath=notes9.ipynb"		 >Binder link</a>
 			</li>     
 			<br> 
