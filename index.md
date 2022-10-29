@@ -18,6 +18,6 @@ permalink:
 
 I can be reached at `petrosyan@math.gatech.edu`.
 <center>
-<img width="270"  src="{{site.baseurl}}/assets/index.png">
+<img width="270" height="auto" src="{{site.baseurl}}/assets/index.png" style="border-radius:50%">
 
 </center>
