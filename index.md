@@ -1,7 +1,7 @@
 ---
 layout: home
 email: armlamdad
-title: <br> <center> WELCOME TO MY PAGE
+title: <br> <center> Welcome To My Page
 permalink: 
 ---
 
