@@ -17,10 +17,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Armenak Petrosyan
+title: Armenak Petrosyan, Ph.D.
 email: petrosyan@gatech.edu
-description: >- # this means to ignore newlines until "baseurl:"
-<p style="text-align:center">Personal Website: Armenak Petrosyan  &copy;</p>
+description: "Personal Website" # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
