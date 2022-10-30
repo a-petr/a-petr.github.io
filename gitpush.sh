@@ -18,10 +18,9 @@ git commit -m "date '+%Y%m%d_%H%M%S' ${message}"
 
 if [ -n "$(git status - porcelain)" ];
 then
- echo "IT IS CLEAN"
+    git push origin gh-pages;
 else
-
-    git push origin gh-pages
+ echo "IT IS CLEAN"
 fi
 
 exit 0
