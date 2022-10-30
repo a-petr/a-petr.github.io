@@ -2,9 +2,10 @@
   link: /
 - name: CV
   link: /cv
-- name: Research
+- name: Research projects
   link: /research
-- name: Teaching
-  link: /teaching
 - name: Personal projects
   link: /projects
+- name: Teaching
+  link: /teaching
+

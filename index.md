@@ -21,3 +21,4 @@ I can be reached at `petrosyan@math.gatech.edu`.
 <img width="270" height="auto" src="{{site.baseurl}}/assets/index.png" style="border-radius:7%">
 
 </center>
+
