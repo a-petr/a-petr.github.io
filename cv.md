@@ -15,8 +15,10 @@ permalink: cv
 <center>
 <img width="100%" height="auto" src="{{ site.url }}/assets/ArmenakPetrosyanCV_Page_1.png">
 <img width="100%" height="auto" src="{{ site.url }}/assets/ArmenakPetrosyanCV_Page_2.png">
-<img width="100%" height="auto" src="{{ site.url }}/assets/ArmenakPetrosyanCV_Page_2.png">
+<img width="100%" height="auto" src="{{ site.url }}/assets/ArmenakPetrosyanCV_Page_3.png">
+<img width="100%" height="auto" src="{{ site.url }}/assets/ArmenakPetrosyanCV_Page_4.png">
 </center>
+
 
 
 
