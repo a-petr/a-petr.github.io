@@ -7,13 +7,13 @@ permalink:
 
 
 <br>
-<p class="text-justify">I am a Hale Visiting Assistant Professor in the School of Mathematics at Georgia Institute of Technology. 
+<p style="text-align:justify">I am a Hale Visiting Assistant Professor in the School of Mathematics at Georgia Institute of Technology. 
 <!-- Before joining Georgia Tech, I was a member of the Computational and Applied Mathematics Group at the Oak Ridge National Laboratory as a postdoctoral researcher. 
  --></p>
 
 
 
-<p class="text-justify">I obtained my Ph.D. degree in Mathematics from Vanderbilt University. My research interests are at the intersection of Mathematical Signal Processing and Machine Learning.  I study approximation and representation capabilities of artificial neural networks, and problems related to the recovery of systems of signals under sparsity and other structural assumptions. Please, check the reseach page for more details. 
+<p style="text-align:justify">I obtained my Ph.D. degree in Mathematics from Vanderbilt University. My research interests are at the intersection of Mathematical Signal Processing and Machine Learning.  I study approximation and representation capabilities of artificial neural networks, and problems related to the recovery of systems of signals under sparsity and other structural assumptions. Please, check the reseach page for more details. 
 </p>
 
 I can be reached at `petrosyan@math.gatech.edu`.
