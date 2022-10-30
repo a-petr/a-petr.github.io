@@ -15,12 +15,7 @@ git add -A
 git status
 echo "Pushing data to remote server!!!"
 git commit -m "date '+%Y%m%d_%H%M%S' ${message}"
+git push origin gh-pages
 
-if [ -n "$(git status - porcelain)" ];
-then
-    git push origin gh-pages;
-else
- echo "IT IS CLEAN"
-fi
 
 exit 0
