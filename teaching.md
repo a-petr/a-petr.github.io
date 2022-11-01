@@ -6,7 +6,7 @@ permalink: teaching
 ---
 
 
-##  <center> Gerogia Tech
+##  <center> Georgia Tech
 ### As main instructor
 
 * Introduction to Discrete Mathematics (MATH 2603), Spring 2023
