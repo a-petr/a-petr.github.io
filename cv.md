@@ -5,6 +5,7 @@ permalink: cv
 ---
 
 
+[Link to pdf file]({{ site.url }}/assets/ArmenakPetrosyanCV.pdf)
 
 
 <!--<object data="{{ site.url }}/assets/ArmenakPetrosyanCV.pdf" width="100vw" height="100vh" type="application/pdf"></object>-->
